@@ -1,5 +1,9 @@
 import './App.css';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
+import { AiFillStar } from 'react-icons/ai';
+import { FaGreaterThan } from 'react-icons/fa';
+import { BsSuitHeart } from 'react-icons/bs';
+import { FaShare } from 'react-icons/fa';
 
 function App() {
   return (
@@ -20,10 +24,47 @@ function App() {
             </div>
             <p className='ml-5'>Kimberly R Moseler</p>
           </div>
-
+          <div className='flex items-center'>
+            <p className='flex text-yellow-500 text-2xl'>
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+            </p>
+            <p className=' ml-5'>467 total review for this teacher</p>
+          </div>
+          <div className='flex items-center'>
+            <p className='flex text-yellow-500 text-2xl'>
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+            </p>
+            <p className=' ml-5'>5  review for this class</p>
+          </div>
+          <p className='mt-3 text-xl'>completed by 21 learners</p>
+        
+        <div className='mt-5 flex items-center'>
+          <button className='btn btn-primary rounded-3xl'>See Class Schedule <span className='ml-2 text-2xl '> <FaGreaterThan/> </span> </button>
+          <div className='flex items-center ml-8 text-primary font-bold'>
+            <p><BsSuitHeart/></p>
+            <p className='ml-3'>Save</p>
+          </div>
+          <div className='flex items-center ml-8 text-primary font-bold'>
+            <p><FaShare/></p>
+            <p className='ml-3'>Share</p>
+          </div>
+        </div>
         </div>
         <div>
+            <div>
+            
+            </div>
+            <div>
 
+            </div>
         </div>
       </div>
     </div>
