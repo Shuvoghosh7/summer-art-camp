@@ -7,9 +7,9 @@ const TextPart = () => {
     return (
         <div className='mt-8'>
           <p className='text-xl justify-center'>this 5 day class we will explore artists Monet,Matisse,Van,Gogh,among other and then recreate Paintaing using crayon and watercolor.Students will have fun learning about the artists & creating own art inspaired by their work</p>
-          <div class="avatar my-5">
-            <div class="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="https://placeimg.com/192/192/people" />
+          <div className="avatar my-5">
+            <div className="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img src="https://randomuser.me/api/portraits/men/11.jpg" />
             </div>
             <p className='ml-5'>Kimberly R Moseler</p>
           </div>
