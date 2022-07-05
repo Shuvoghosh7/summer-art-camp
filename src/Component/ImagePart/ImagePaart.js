@@ -1,9 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
-import picture1 from '../../img/picture1.PNG'
-import picture2 from '../../img/picture2.PNG'
-import picture3 from '../../img/picture3.PNG'
-
 const ImagePaart = () => {
     const [data1, setdata1] = useState([])
     const [data2, setdata2] = useState([])
